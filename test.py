@@ -35,7 +35,10 @@ import requests
 # print(type(data))
 # json1=json.dumps(data)
 # pprint.pprint(json1)
-
+'''
 print("git add xxx  # 添加文件到仓库" )
 print("git status  # 查看提交状态" )
 print("git commit -m 'mesage ' # 提交状态以及提交记录message" )
+git log 查看Git日志
+git diff XXX  查看修改记录
+'''
