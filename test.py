@@ -1,4 +1,4 @@
-# import os
+# import s
 # import getpathinfo  # 自己定义的内部类，该类返回项目的绝对路径
 # # 调用读Excel的第三方库xlrd
 # from xlrd import open_workbook
@@ -41,4 +41,7 @@ print("git status  # 查看提交状态" )
 print("git commit -m 'mesage ' # 提交状态以及提交记录message" )
 git log 查看Git日志
 git diff XXX  查看修改记录
+git reset --hard HEAD^ 回退上一个版本
+git reset --hard XXX  commi id 重新将HEAD指针指到XXX的版本
+git reflog 查看命令历史
 '''
